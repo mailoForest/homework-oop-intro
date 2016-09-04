@@ -78,7 +78,10 @@ class Employee
 				Task name:                                   %s
 				Hours left till the end of the working day:  %02d
 				Hours left till completion of the task:      %02d
-				', $this->name, $this->currentTask->getName(),
-				$this->getHoursLeft(), $this->currentTask->getWorkingHours());
+				', 
+				$this->name, 
+				$this->currentTask->getName(),
+				$this->getHoursLeft(), 
+				$this->currentTask->getWorkingHours());
 	}
 }
